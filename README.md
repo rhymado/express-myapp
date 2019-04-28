@@ -1,9 +1,17 @@
 Example of simple CRUD API using express and mysql
 
-##For auto-reloading server
+## Clone repo ini
 
 ```
-npm install -g nodemon
+$ git clone https://github.com/rhymado/express-myapp.git
+$ cd express-myapp
+$ npm install
+```
+
+## Untuk auto-reloading server
+
+```
+$ npm install -g nodemon
 ```
 
 Tambahkan di `package.json` (disini memakai `server.js`)
@@ -20,5 +28,5 @@ Tambahkan di `package.json` (disini memakai `server.js`)
 Jalankan
 
 ```
-npm start
+$ npm start
 ```
