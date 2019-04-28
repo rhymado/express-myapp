@@ -1,7 +1,7 @@
 'use strict';
 
-const response = require ('./res');
-const connection = require ('./conn');
+const response = require ('./response');
+const connection = require ('./connect');
 
 exports.users = function (req, res) {
   connection.query ('SELECT * FROM person', function (error, rows, fields) {
